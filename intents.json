@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Much appreciated",
+        "I appreciate it"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about_college",
+      "patterns": [
+        "What is SIES GST?",
+        "Tell me about SIES Graduate School of Technology",
+        "Where is SIES GST located?",
+        "Is SIES GST affiliated with any university?",
+        "When was SIES GST established?",
+        "Is SIES GST NAAC/NBA accredited?",
+        "Is SIES GST an autonomous college?",
+        "Give me an overview of SIES GST.",
+        "Can you provide details about SIES GST?",
+        "What makes SIES GST unique?",
+        "Does SIES GST belong to the SIES group?"
+      ],
+      "responses": [
+        "SIES Graduate School of Technology (SIES GST) is an engineering college established in 2002. It is located in Nerul, Navi Mumbai, and is affiliated with the University of Mumbai. The institute is NAAC and NBA accredited but is not autonomous. It is part of the SIES group of institutions."
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities does SIES GST provide?",
+        "What is available on the SIES GST campus?",
+        "Does SIES GST have a hostel facility?",
+        "What are the infrastructure facilities at SIES GST?",
+        "Is there a library at SIES GST?",
+        "Does SIES GST have a gym?",
+        "Are there any seminar halls or auditoriums at SIES GST?"
+      ],
+      "responses": [
+        "SIES GST offers a well-equipped campus with a library, computer center, language lab, auditoriums, seminar halls, gym, and recreational spaces. The campus also has a bank, a stationery shop, and CCTV security. The college does not have its own hostel but provides information on nearby hostel facilities."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure at SIES GST?",
+        "What is the fee structure of SIES GST?",
+        "Can I pay my fees in installments?",
+        "Does the tuition fee remain the same for all years?",
+        "How much does it cost to study at SIES GST?",
+        "What are the additional charges apart from tuition fees?"
+      ],
+      "responses": [
+        "The fee structure is prescribed by the Fee Regulatory Authority and is updated on the institute website. Fees can be paid in installments with special permission. The tuition fee generally remains the same, but any changes follow the regulatory guidelines. Additional charges may include exam fees, library fees, and other incidental costs."
+      ]
+    },
+    {
+      "tag": "category_concession_scholarships",
+      "patterns": [
+        "Can we get category concession/scholarship/free ship in fees?",
+        "Are there any fee concessions for reserved categories?",
+        "Does SIES GST offer any financial aid?"
+      ],
+      "responses": [
+        "Category concession is applicable ONLY to the candidates who have secured admission through CAP and belong to Maharashtra. Concessions are granted as per government directives issued from time to time."
+      ]
+    },
+    {
+      "tag": "branch_change",
+      "patterns": [
+        "Can we change the branch at the second-year level?",
+        "Is branch change allowed after the first year?",
+        "How can I switch my branch at SIES GST?"
+      ],
+      "responses": [
+        "Yes, but it depends on the availability of seats in the branch of your choice. Additionally, you must fulfill all conditions and rules set by the competent authorities. The change will be considered based on your first-year engineering results and merit."
+      ]
+    },
+    {
+      "tag": "industrial_visits",
+      "patterns": [
+        "Does SIES GST arrange industrial visits?",
+        "Are there any industry collaborations at SIES GST?",
+        "What kind of industry exposure does SIES GST provide?"
+      ],
+      "responses": [
+        "Yes, SIES GST has signed MOUs with several industries, and industrial visits are a regular activity for students. The Institute-Industry Interaction Cell facilitates projects, training, placements, and internships in collaboration with industry leaders."
+      ]
+    },
+    {
+      "tag": "collage_department",
+      "patterns": ["what are the different departments in collage?"],
+      "responses": ["1] First Year Enginerring /n 2]"]
+    }
+  ]
+}
